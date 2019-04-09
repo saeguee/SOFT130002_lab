@@ -1,0 +1,96 @@
+h1 { 
+	font-size: 3em; 
+	font-weight: bold; 
+	margin-top: 0;
+}
+
+div#topHeaderRow {
+   font-size: 1em;
+}
+
+div#topHeaderRow nav{
+	padding:14px;
+}
+
+
+div#mainNavigationRow nav{
+	padding-left: 15px;
+}
+
+#productInfoTable{
+	font-size: 1.1em;
+}
+
+.price { 
+	color: red;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+aside h3{
+	font-size: 1.3em;
+	margin:0;
+}
+
+aside li{
+	margin:20px auto;
+}
+
+.cartText { 
+	font-size: 0.5em;
+}
+
+.cartText span{
+	color:#9F9F5F;
+}
+
+#similarProducts div.thumbnail:first-child{
+	margin-left: 0;
+}
+
+#similarProducts div.thumbnail:last-child{
+	margin-right: 0;
+}
+
+#similarProducts div.thumbnail{
+	width: 22.3%;
+	float: left;
+	padding: 4px 10px 10px;
+	margin: 0 1.5%;
+}
+
+#copyrightRow { 
+	background-color: #3A3A3A; 
+    clear: both;
+	display: block;
+	color: darkgrey;
+	padding: 15px 60px;
+}
+
+#similarProducts>div{
+	display: inline-block;
+}
+
+footer {
+   margin-top: 1em;
+   background-color: #E7E7E7;
+}
+
+footer div.col-lg-3 div:first-child{
+	margin: 15px auto;
+	font-size: 1.5em;
+}
+
+footer h4{
+	display: inline;
+}
+
+footer li, footer a, footer p, footer input, textarea{
+	margin:10px auto;
+}
+
+@media (min-width: 1300px) {
+    .container{
+        max-width: 1300px;
+    }
+}
